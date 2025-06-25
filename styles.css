@@ -88,7 +88,56 @@
 
    main{
     margin-left: 80px;
-      margin-top: 70px;
-      padding: 2rem;
-      width: 100%;
+    margin-top: 70px;
+    padding: 2rem;
+    width: 100%;
    }
+
+   main .text{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ccc;
+    border: solid 3px #ffff;
+    padding: 10px;
+   }
+
+   main .text h2{
+    color: aqua;
+    margin-bottom: 13px;
+   }
+
+   main #name{
+    color: aqua;
+   }
+
+   main button{
+    margin-top: 20px;
+    padding: 8px;
+   }
+
+
+
+   /* 2nd div dans main */
+
+   .stats{
+    margin-top: 65px;
+    border: solid 3px #ffff;
+    padding: 10px;
+   }
+
+   .stats .cta-container{
+    display: flex;
+    justify-content: flex-end;
+   }
+
+   .stats h2{
+    color: aqua;
+    margin-bottom: 13px;
+   }
+
+   .stat-grid{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+   }
+
