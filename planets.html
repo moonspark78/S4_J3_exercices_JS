@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planètes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">SPACEX</div>
+        <nav>
+          <a href="index.html">ACCUEIL</a>
+          <a href="#" class="active">PROCHAINE MISSION</a>
+        </nav>
+      </header>
+
+      <aside class="sidebar">
+        <a href="planets.html">
+          <img src="./terre.png" alt="Planètes" />
+          <span>PLANÈTES</span>
+        </a>
+        <a href="#">
+          <img src="./fusee.png" alt="Véhicules" />
+          <span>VÉHICULES</span>
+        </a>
+        <a href="#">
+          <img src="./reddit.png" alt="Personnes" />
+          <span>PERSONNES</span>
+        </a>
+      </aside>
+
+      <main>
+        <section class="planets-page">
+          <div class="planets-left">
+            <h2>PLANÈTES</h2>
+            <select>
+              <option>Par population</option>
+            </select>
+            <input type="text" placeholder="Faites votre recherche" />
+            <table>
+              <thead>
+                <tr>
+                  <th>Nom</th>
+                  <th>Terrain</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Eriadu</td><td>cityscape</td></tr>
+                <tr><td>Corellia</td><td>plains, urban, hills, forests</td></tr>
+                <tr><td>Rodia</td><td>jungles, oceans, urban, swamps</td></tr>
+                <tr><td>Nal Hutta</td><td>urban, oceans, swamps, bogs</td></tr>
+                <tr><td>Dantooine</td><td>oceans, savannas, mountains, grasslands</td></tr>
+                <tr><td>Bestine IV</td><td>rocky islands, oceans</td></tr>
+              </tbody>
+            </table>
+            <p><i>60 résultat(s)</i></p>
+          </div>
+
+          <div class="planets-right">
+            <p style="color: lightskyblue; font-style: italic; border: 1px solid white; padding: 10px;">Sélectionner le contenu à afficher !</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="planets.js"></script>
+  </body>
+</html>

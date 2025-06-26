@@ -172,3 +172,11 @@
   color: white;
   margin-top: 5px;
 }
+
+
+/* ----------Planets---------------- */
+
+.planets-page{
+  display: flex;
+  
+}
