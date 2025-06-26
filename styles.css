@@ -200,6 +200,19 @@
   margin-bottom: 13px;
 }
 
+.planets-left .result{
+  margin-top: 26px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-weight: bold;
+  color: aqua;
+  padding: 5px 10px;
+  border-bottom: 1px solid white;
+}
 
 
 
