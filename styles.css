@@ -176,24 +176,25 @@
 
 /* ----------Planets---------------- */
 
-.planets-page{
+.planets-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-items: start;
 }
 
-.planets-left{
+.planets-left {
   border: solid 3px #ffff;
   padding: 15px;
 }
-.planets-left select{
+
+.planets-left select {
   margin-bottom: 12px;
   margin-top: 15px;
   padding: 6px;
 }
 
-.planets-left input{
+.planets-left input {
   margin-top: 10px;
   padding: 8px;
   width: 80%;
@@ -201,7 +202,7 @@
   margin-bottom: 13px;
 }
 
-.planets-left .result{
+.planets-left .result {
   margin-top: 26px;
 }
 
@@ -215,31 +216,66 @@
   border-bottom: 1px solid white;
 }
 
-.data-list li{
+.data-list li {
   display: flex;
   justify-content: space-between;
 }
 
-.planets-right{
+.planets-right {
   border: solid 3px #ffff;
   padding: 15px;
 }
-.planets-right h2{
+
+.planets-right h2 {
   color: aqua;
   margin-bottom: 16px;
 }
 
-.stat-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
-}
-
-.planets-right .cta-container{
+.planets-right .cta-container {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
 }
+
+/* === Bloc planète à droite === */
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.planet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.planet-item .icon-stat {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.planet-item .stat-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.planet-item .stat-text .label {
+  font-weight: bold;
+  color: aqua;
+  font-size: 0.9rem;
+}
+
+.planet-item .stat-text strong {
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 5px;
+}
+
 
 
 
