@@ -177,6 +177,30 @@
 /* ----------Planets---------------- */
 
 .planets-page{
-  display: flex;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
+
+.planets-left{
+  border: solid 3px #ffff;
+  padding: 15px;
+}
+.planets-left select{
+  margin-bottom: 12px;
+  margin-top: 15px;
+  padding: 6px;
+}
+
+.planets-left input{
+  margin-top: 10px;
+  padding: 8px;
+  width: 80%;
+  border-radius: 4px;
+  margin-bottom: 13px;
+}
+
+
+
+
+/* ----------Vehicules------------------ */
