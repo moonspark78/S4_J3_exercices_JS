@@ -37,15 +37,34 @@
             <h2>VEHICULES</h2>
             <select>
               <option>Par population</option>
-            </select> <br>
+            </select>
+            <br />
             <input type="text" placeholder="Faites votre recherche" />
-           
+
+            <!-- TITRES DES COLONNES -->
+            <div class="list-header">
+              <span>Nom</span>
+              <span>Terrain</span>
+            </div>
+
+            <!-- LISTE QUI SERA REMPLIE EN JS -->
+            <ul id="data-list" class="data-list">
+              
+            </ul>
+
             <p><i>60 résultat(s)</i></p>
           </div>
 
           <div class="planets-right">
-            <p style="color: lightskyblue; font-style: italic; border: 3px solid white; padding: 10px;">
-                Sélectionner le contenu à afficher !
+            <p
+              style="
+                color: lightskyblue;
+                font-style: italic;
+                border: 3px solid white;
+                padding: 10px;
+              "
+            >
+              Sélectionner le contenu à afficher !
             </p>
           </div>
         </section>
