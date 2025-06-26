@@ -16,4 +16,24 @@ async function updateStats() {
   statElements[2].textContent = planetCount;
 }
 
-document.addEventListener("DOMContentLoaded", updateStats);
+
+
+async function getPlanets() {
+  const list = document.getElementById("planet-list");
+  
+  for (let i = 1; i <= 61; i++) {
+    
+    const response = await fetch(`https://swapi.py4e.com/api/planets/${i}/`);
+    const data = await response.json();
+    
+    const item = document.createElement("li");
+    item.innerHTML = `<span>${data.name}</span><span>${data.terrain}</span>`;
+    list.appendChild(item);
+  }
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  updateStats();
+  getPlanets();
+});

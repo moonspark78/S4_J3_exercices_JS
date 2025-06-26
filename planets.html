@@ -40,30 +40,69 @@
             </select> <br>
             <input type="text" placeholder="Faites votre recherche" />
 
-             <!-- TITRES DES COLONNES -->
+             
             <div class="list-header">
               <span>Nom</span>
               <span>Terrain</span>
             </div>
 
-            <!-- LISTE QUI SERA REMPLIE EN JS -->
-            <ul id="data-list" class="data-list">
-              <!-- <li><span>Nom1</span><span>Terrain1</span></li> -->
+            
+            <ul id="planet-list" class="data-list">
+              
             </ul>
 
            
-            <p class="result"><i>60 résultat(s)</i></p>
+            <p class="result"><i>61 résultat(s)</i></p>
           </div>
 
           <div class="planets-right">
-            <p style="color: lightskyblue; font-style: italic; border: 3px solid white; padding: 10px;">
-                Sélectionner le contenu à afficher !
-            </p>
+            <h2>UTAPAU</h2>
+          <p>
+            Population : 
+          </p>
+
+          <div class="stat-grid">
+            <div class="stat-item">
+              <img src="./cercle.png" class="icon-stat" alt="Groupe" />
+              <div class="stat-text">
+                <span class="label">Diametre</span>
+                <strong></strong>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <img src="./climat.png" class="icon-stat" alt="Fusée" />
+              <div class="stat-text">
+                <span class="label">Climat</span>
+                <strong></strong>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <img src="./magnetique.png" class="icon-stat" alt="Monde" />
+              <div class="stat-text">
+                <span class="label">Gravité</span>
+                <strong></strong>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <img src="./arbre.png" class="icon-stat" alt="Horloge" />
+              <div class="stat-text">
+                <span class="label">Terrain</span>
+                <strong></strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-container">
+            <button class="cta">En savoir plus</button>
+          </div>
           </div>
         </section>
       </main>
     </div>
 
-    <script src="planets.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
